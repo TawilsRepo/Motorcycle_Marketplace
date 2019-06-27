@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+/* Main rules */
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -17,6 +19,25 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+
+/* END Main rules */
+
+/* TOP NAVIGATION Contents */
+.nav-top ul{
+    display: contents;
+}
+
+.nav-top #nav-top-sign-in{
+    margin-right: -155px;
+}
+
+.nav-top #nav-top-sign-up{
+    margin-right: -180px;
+}
+
+/* END TOP NAVIGATION Contents */
+
+/* BACK GROUND IMAGE */
 
 header.masthead {
   position: relative;
@@ -51,19 +72,16 @@ header.masthead h1 {
   }
 }
 
-.showcase .showcase-text {
-  padding: 3rem;
+/* END BACK GROUND IMAGE */
+
+/* ICONS GRID */
+
+.icons-grid-row{
+    margin-right: -204px;
 }
 
-.showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
-}
-
-@media (min-width: 768px) {
-  .showcase .showcase-text {
-    padding: 7rem;
-  }
+.icons-grid-row h1{
+    height: 170px;
 }
 
 .features-icons {
@@ -87,6 +105,67 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
+/* END ICONS GRID */
+
+/* HOME PAGE CONTENT */
+
+.content .content-text {
+  padding: 3rem;
+}
+
+.content .content-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .content .content-text {
+    padding: 7rem;
+  }
+}
+
+/* SEARCH BAR */
+
+.content-search{
+    flex: 2;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* END SEARCH BAR */
+
+/* START BRANDS */
+
+.moto-brands{
+    flex: 1;
+}
+
+/* END BRANDS */
+
+/* START ADVANCED SEARCH */
+
+.adv-search{
+    
+}
+
+.adv-search h3{
+    padding-left: 50%;
+}
+
+/* END ADVANCED SEARCH */
+
+/* END HOME PAGE CONTENT */
+
+/* testimonials */
+
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -101,6 +180,8 @@ header.masthead h1 {
   -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
+
+/* END testimonials */
 
 .call-to-action {
   position: relative;

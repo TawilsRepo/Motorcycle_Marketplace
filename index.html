@@ -26,14 +26,61 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
+  <nav class="navbar navbar-light bg-light static-top nav-top">
     <div class="container">
       <a class="navbar-brand" href="#">LOGO HERE</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
+      <!-- UL NAV-->
+       <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help!</a>
+            </li>
+           </ul>
+      <!-- END UL NAV-->
+      <ul>
+          <button class="btn btn-primary" id="nav-top-sign-in" data-toggle="modal" data-target="#loginModal">Sign In</button>
+          <button class="btn btn-primary" id="nav-top-sign-up" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+      </ul>
+          <!-- LOGIN MODAL -->
+    <div class="modal" id="loginModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign In</h5>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Username" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" class="form-control">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary" data-dismiss="modal">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- END LOGIN MODAL -->
     </div>
   </nav>
 
-  <!-- Masthead -->
+  <!-- Masthead <background image in css file>-->
   <header class="masthead text-white text-center">
     <div class="overlay"></div>
     <div class="container">
@@ -42,16 +89,6 @@
           <h1 class="mb-5">WELCOME TEXT</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>
-          </form>
         </div>
       </div>
     </div>
@@ -59,10 +96,9 @@
 
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
-   <h1>ما ستجده في الموقع</h1>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
+      <div class="row icons-grid-row">
+        <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-dice m-auto text-primary"></i>
@@ -71,7 +107,7 @@
             <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-car-battery m-auto text-primary"></i>
@@ -80,7 +116,7 @@
             <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-motorcycle m-auto text-primary"></i>
@@ -89,36 +125,165 @@
             <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
           </div>
         </div>
+        <h1 class="col-lg-3 align-self-center">: ما ستجده في الموقع</h1>
       </div>
     </div>
   </section>
 
-  <!-- Image Showcases -->
-  <section class="showcase">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
+  <!-- Home Page Content -->
+  <section class="content p-2 d-flex flex-row">
+   <!-- Search Bar -->
+    <div class="container content-search">
+     <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+                <form class="card card-sm">
+                    <div class="card-body row no-gutters align-items-center">
+                        <div class="col-auto">
+                            <i class="fas fa-search h4 text-body"></i>
+                        </div>
+                        <!--end of col-->
+                        <div class="col">
+                            <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+                        </div>
+                        <!--end of col-->
+                        <div class="col-auto">
+                            <button class="btn btn-lg btn-success" type="submit">Search</button>
+                        </div>
+                        <!--end of col-->
+                    </div>
+                </form>
+         </div>
+            <!--end of col-->
+        </div>
+    <!-- END search bar-->
+    
+    <!-- ADVANCED SEARCH -->
+    
+    
+        <div class="container adv-search">
+            <div class="main_bg white-text">
+                <h3>بحث متقدم</h3>
+                <div>
+                    <form action="" method="get" id="search_car">
+                        <div class="form-group">
+                            <label class="form-label">نطاق السعر (EGP)</label>
+                            
+                            <div class="slider slider-horizontal" id=""><div class="slider-track"><div class="slider-track-low" style="left: 0px; width: 0%;"></div><div class="slider-selection" style="left: 0%; width: 100%;"></div><div class="slider-track-high" style="right: 0px; width: 0%;"></div></div><div class="tooltip tooltip-main top" role="presentation" style="left: 50%; margin-left: -39px;"><div class="tooltip-arrow"></div><div class="tooltip-inner">50 : 990000</div></div><div class="tooltip tooltip-min top" role="presentation" style="left: 0%; margin-left: 0px; display: none;"><div class="tooltip-arrow"></div><div class="tooltip-inner">50</div></div><div class="tooltip tooltip-max top" role="presentation" style="left: 100%; margin-left: 0px; display: none;"><div class="tooltip-arrow"></div><div class="tooltip-inner">990000</div></div><div class="slider-handle min-slider-handle round" role="slider" aria-valuemin="50" aria-valuemax="990000" aria-valuenow="50" tabindex="0" style="left: 0%;"></div><div class="slider-handle max-slider-handle round" role="slider" aria-valuemin="50" aria-valuemax="990000" aria-valuenow="990000" tabindex="0" style="left: 100%;"></div></div><input id="price_range" name="price" type="text" class="span2" value="50,990000" data-slider-min="50" data-slider-max="990000" data-slider-step="5" data-slider-value="[0,990000]" data-value="50,990000" style="display: none;">
+                        </div>
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/image1.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Lorem Ipsum is simply dummy text of the printing and typesetting </h2>
-          <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                        <div class="form-group">
+                            <div class="select">
+                                <select class="form-control" name="brand_slug" title="كل الماركات">
+                                    <option value="">كل الماركات</option>
+                                                                            <option value="Alfa_Romeo" data-id="63">الفا روميو</option>
+                                                                            <option value="audi" data-id="48">أودى</option>
+                                                                            <option value="BMW" data-id="50">بى ام دابليو</option>
+                                                                            <option value="Brilliance" data-id="17">بريلیانس</option>
+                                                                            <option value="BYD" data-id="18">بي واي دي</option>
+                                                                            <option value="changan" data-id="45">شنجان</option>
+                                                                            <option value="Chery" data-id="19">شيري</option>
+                                                                            <option value="Chevrolet" data-id="14">شيفروليه</option>
+                                                                            <option value="Citroen" data-id="20">سيتروين</option>
+                                                                            <option value="FAW" data-id="62">فاو</option>
+                                                                            <option value="fiat" data-id="25">فيات</option>
+                                                                            <option value="Ford" data-id="21">فورد</option>
+                                                                            <option value="geely" data-id="40">جيلي</option>
+                                                                            <option value="Glory" data-id="55">جلوري</option>
+                                                                            <option value="Haima" data-id="35">هايما</option>
+                                                                            <option value="honda" data-id="42">هوندا</option>
+                                                                            <option value="Hyundai" data-id="7">هيونداي</option>
+                                                                            <option value="JAC" data-id="22">جاك</option>
+                                                                            <option value="jaguar" data-id="47">جاجوار</option>
+                                                                            <option value="Jeep" data-id="23">جيب</option>
+                                                                            <option value="Karry" data-id="57">كارى</option>
+                                                                            <option value="KIA" data-id="2">كيا</option>
+                                                                            <option value="Lada" data-id="24">لادا</option>
+                                                                            <option value="Land_Rover" data-id="49">لاند روفر</option>
+                                                                            <option value="Maserati" data-id="65">مازيراتي</option>
+                                                                            <option value="mazda" data-id="26">مازدا</option>
+                                                                            <option value="Mercedes" data-id="52">مرسيدس</option>
+                                                                            <option value="brand_mg" data-id="39">أم جي</option>
+                                                                            <option value="mini" data-id="41">ميني</option>
+                                                                            <option value="Mitsubishi" data-id="27">متسوبيشي</option>
+                                                                            <option value="Nissan" data-id="12">نيسان</option>
+                                                                            <option value="Opel" data-id="15">أوبل</option>
+                                                                            <option value="Puegeot" data-id="28">بيجو</option>
+                                                                            <option value="porsche" data-id="64">بورش</option>
+                                                                            <option value="proton" data-id="44">بروتون</option>
+                                                                            <option value="Renault" data-id="6">رينو</option>
+                                                                            <option value="Seat" data-id="29">سيات</option>
+                                                                            <option value="SENOVA" data-id="56">سينوفا</option>
+                                                                            <option value="skoda" data-id="43">سكودا</option>
+                                                                            <option value="Ssangyong" data-id="30">سانغ يونغ</option>
+                                                                            <option value="Subaru" data-id="31">سوبارو</option>
+                                                                            <option value="Suzuki" data-id="32">سوزوكي</option>
+                                                                            <option value="Toyota" data-id="33">تويوتا</option>
+                                                                            <option value="Volkswagen" data-id="34">فولكس فاجن</option>
+                                                                            <option value="volvo" data-id="46">فولفو</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="select">
+                                <select class="form-control" name="brand_model_slug" title="كل الموديلات"><option value="">كل الموديلات</option><option value="giulia">جوليا</option><option value="giulietta">جوليتا</option><option value="MITO">ميتو</option><option value="stelvio">ستلفيو</option></select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="select">
+                                <select class="form-control" name="type" title="جديد - مستعمل" required="">
+                                    <option value="new" selected="">جديد</option>
+                                    <option value="used">مستعمل</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-block"><i class="fa fa-search" aria-hidden="true"></i> بحث </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/image2.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>Lorem Ipsum is simply dummy text of the printing and typesetting </h2>
-          <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img placeholder" style="background-image: url('img/image3.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Lorem Ipsum is simply dummy text of the printing and typesetting  &amp; Customize</h2>
-          <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-        </div>
-      </div>
+    
+    
+    <!-- END ADVANCED SEARCH -->
     </div>
+    
+    <!-- START BRANDS -->
+    <div class="container moto-brands">
+         <ul class="d-flex flex-row">
+            <li>
+                <a href="#" class="brands-item">
+                <img src="" alt="Brand here">Brand here</a>
+            </li>
+            <li>
+                <a href="#" class="brands-item">
+                <img src="" alt="Brand here">Brand here</a>
+            </li>
+         </ul>
+         <ul class="d-flex flex-row">
+            <li>
+                <a href="#" class="brands-item">
+                <img src="" alt="Brand here">Brand here</a>
+            </li>
+            <li>
+                <a href="#" class="brands-item">
+                <img src="" alt="Brand here">Brand here</a>
+            </li>
+         </ul>
+         <ul class="d-flex flex-row">
+            <li>
+                <a href="#" class="brands-item">
+                <img src="" alt="Brand here">Brand here</a>
+            </li>
+            <li>
+                <a href="#" class="brands-item">
+                <img src="" alt="Brand here">Brand here</a>
+            </li>
+         </ul>
+    </div>
+    <!-- END START BRANDS -->
   </section>
 
   <!-- Testimonials -->
