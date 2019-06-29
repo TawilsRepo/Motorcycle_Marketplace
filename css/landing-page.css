@@ -24,7 +24,7 @@ h6 {
 
 /* TOP NAVIGATION Contents */
 .nav-top ul{
-    display: contents;
+    display: contents !important;
 }
 
 .nav-top #nav-top-sign-in{
@@ -153,11 +153,16 @@ header.masthead h1 {
 /* START ADVANCED SEARCH */
 
 .adv-search{
-    
+    background-color: #007bff;
+    margin-top: 50px;
 }
 
 .adv-search h3{
     padding-left: 50%;
+}
+
+.fa-search{
+    color: #111111;
 }
 
 /* END ADVANCED SEARCH */
