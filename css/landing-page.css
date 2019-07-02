@@ -27,7 +27,7 @@ h6 {
     display: contents !important;
 }
 
-.nav-top #nav-top-sign-in{
+/*.nav-top #nav-top-sign-in{
     margin-right: -155px;
 }
 
@@ -76,10 +76,6 @@ header.masthead h1 {
 
 /* ICONS GRID */
 
-.icons-grid-row{
-    margin-right: -204px;
-}
-
 .icons-grid-row h1{
     height: 170px;
 }
@@ -105,6 +101,12 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
+@media (max-width: 992px) {
+    .icon-order{
+        order: 1;
+    }
+}
+
 /* END ICONS GRID */
 
 /* HOME PAGE CONTENT */
@@ -124,11 +126,17 @@ header.masthead h1 {
   }
 }
 
-/* SEARCH BAR */
+/* START search div*/
 
-.content-search{
-    flex: 2;
+@media (max-width: 992){
+    .search-div{
+        order: 1;
+    }
 }
+
+/* END search div */
+
+/* SEARCH BAR */
 
 .form-control-borderless {
     border: none;
@@ -142,19 +150,12 @@ header.masthead h1 {
 
 /* END SEARCH BAR */
 
-/* START BRANDS */
-
-.moto-brands{
-    flex: 1;
-}
-
-/* END BRANDS */
-
 /* START ADVANCED SEARCH */
 
 .adv-search{
     background-color: #007bff;
     margin-top: 50px;
+    margin-left: 17%;
 }
 
 .adv-search h3{
@@ -166,6 +167,10 @@ header.masthead h1 {
 }
 
 /* END ADVANCED SEARCH */
+
+/* START BRANDS */
+
+/* END BRANDS */
 
 /* END HOME PAGE CONTENT */
 

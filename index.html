@@ -98,7 +98,7 @@
   <section class="features-icons bg-light text-center">
     <div class="container">
       <div class="row icons-grid-row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 icon-order">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-dice m-auto text-primary"></i>
@@ -107,7 +107,7 @@
             <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 icon-order">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-car-battery m-auto text-primary"></i>
@@ -116,7 +116,7 @@
             <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 icon-order">
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-motorcycle m-auto text-primary"></i>
@@ -129,11 +129,14 @@
       </div>
     </div>
   </section>
-
+  
   <!-- Home Page Content -->
-  <section class="content p-2 d-flex flex-row">
-   <!-- Search Bar -->
-    <div class="container content-search">
+  <section class="container content p-2">
+    <div class="content-search row">
+
+    <!-- START Search div-->
+    <div class="col search-div">
+    <!-- Search Bar -->
      <div class="row justify-content-center">
         <div class="col-12 col-md-10 col-lg-8">
                 <form class="card card-sm">
@@ -159,11 +162,11 @@
     
     <!-- ADVANCED SEARCH -->
     
-        <div class="container adv-search">
-            <div class="main_bg white-text">
-                <h3>بحث متقدم</h3>
-                <div>
-                    <form action="" method="get" id="search_car" style="direction: rtl;">
+    <div class="adv-search col-12 col-md-10 col-lg-8">
+        <div class="main_bg white-text align-self-center">
+         <h3>بحث متقدم</h3>
+          <div>
+            <form action="" method="get" id="search_car" style="direction: rtl;">
                     
 
                         <div class="form-group">
@@ -240,14 +243,13 @@
                 </div>
             </div>
         </div>
-    
-    
     <!-- END ADVANCED SEARCH -->
     </div>
+    <!-- END Search div-->
     
     <!-- START BRANDS -->
-    <div class="container moto-brands">
-         <ul class="d-flex flex-row">
+    <div class="col-2 moto-brands">
+         <ul>
             <li>
                 <a href="#" class="brands-item">
                 <img src="" alt="Brand here">Brand here</a>
@@ -257,7 +259,7 @@
                 <img src="" alt="Brand here">Brand here</a>
             </li>
          </ul>
-         <ul class="d-flex flex-row">
+         <ul>
             <li>
                 <a href="#" class="brands-item">
                 <img src="" alt="Brand here">Brand here</a>
@@ -267,7 +269,7 @@
                 <img src="" alt="Brand here">Brand here</a>
             </li>
          </ul>
-         <ul class="d-flex flex-row">
+         <ul>
             <li>
                 <a href="#" class="brands-item">
                 <img src="" alt="Brand here">Brand here</a>
@@ -278,7 +280,9 @@
             </li>
          </ul>
     </div>
-    <!-- END START BRANDS -->
+    <!-- END BRANDS -->
+    </div>
+    
   </section>
   
   <section>
@@ -697,8 +701,8 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/js/js.js" ></script>
 </body>
 
