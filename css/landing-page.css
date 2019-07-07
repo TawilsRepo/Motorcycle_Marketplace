@@ -6,6 +6,10 @@
 
 /* Main rules */
 
+.row{
+    margin: 0 !important;
+}
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -20,6 +24,10 @@ h6 {
   font-weight: 700;
 }
 
+.auto-test {
+
+    margin:0 auto;
+}
 /* END Main rules */
 
 /* TOP NAVIGATION Contents */
@@ -27,12 +35,8 @@ h6 {
     display: contents !important;
 }
 
-/*.nav-top #nav-top-sign-in{
-    margin-right: -155px;
-}
-
-.nav-top #nav-top-sign-up{
-    margin-right: -180px;
+#nav-top-sign-in{
+    margin: 0px 5px 0px 0px;
 }
 
 /* END TOP NAVIGATION Contents */
@@ -111,6 +115,10 @@ header.masthead h1 {
 
 /* HOME PAGE CONTENT */
 
+.content-search {
+    margin-right: auto;
+}
+
 .content .content-text {
   padding: 3rem;
 }
@@ -154,8 +162,8 @@ header.masthead h1 {
 
 .adv-search{
     background-color: #007bff;
+    margin: auto;
     margin-top: 50px;
-    margin-left: 17%;
 }
 
 .adv-search h3{
