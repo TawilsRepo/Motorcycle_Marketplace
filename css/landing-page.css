@@ -6,12 +6,12 @@
 
 /* Main rules */
 
-.row{
+.row {
     margin: 0 !important;
 }
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -20,22 +20,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
 }
 
 .auto-test {
 
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 /* END Main rules */
 
 /* TOP NAVIGATION Contents */
-.nav-top ul{
+.nav-top ul {
     display: contents !important;
 }
 
-#nav-top-sign-in{
+#nav-top-sign-in {
     margin: 0px 5px 0px 0px;
 }
 
@@ -44,69 +45,70 @@ h6 {
 /* BACK GROUND IMAGE */
 
 header.masthead {
-  position: relative;
-  background-color: #343a40;
-  background: url("../img/motorbike-407186_1280.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/motorbike-407186_1280.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 header.masthead .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 @media (min-width: 768px) {
-  header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+    header.masthead h1 {
+        font-size: 3rem;
+    }
 }
 
 /* END BACK GROUND IMAGE */
 
 /* ICONS GRID */
 
-.icons-grid-row h1{
+.icons-grid-row h1 {
     height: 170px;
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 .features-icons .features-icons-item {
-  max-width: 20rem;
+    max-width: 20rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
+    height: 7rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
-  font-size: 4.5rem;
+    font-size: 4.5rem;
 }
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
-  font-size: 5rem;
+    font-size: 5rem;
 }
 
 @media (max-width: 992px) {
-    .icon-order{
+    .icon-order {
         order: 1;
     }
 }
@@ -120,24 +122,24 @@ header.masthead h1 {
 }
 
 .content .content-text {
-  padding: 3rem;
+    padding: 3rem;
 }
 
 .content .content-img {
-  min-height: 30rem;
-  background-size: cover;
+    min-height: 30rem;
+    background-size: cover;
 }
 
 @media (min-width: 768px) {
-  .content .content-text {
-    padding: 7rem;
-  }
+    .content .content-text {
+        padding: 7rem;
+    }
 }
 
 /* START search div*/
 
-@media (max-width: 992){
-    .search-div{
+@media (max-width: 992) {
+    .search-div {
         order: 1;
     }
 }
@@ -150,7 +152,9 @@ header.masthead h1 {
     border: none;
 }
 
-.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
     border: none;
     outline: none;
     box-shadow: none;
@@ -160,17 +164,17 @@ header.masthead h1 {
 
 /* START ADVANCED SEARCH */
 
-.adv-search{
+.adv-search {
     background-color: #007bff;
     margin: auto;
     margin-top: 50px;
 }
 
-.adv-search h3{
+.adv-search h3 {
     padding-left: 50%;
 }
 
-.fa-search{
+.fa-search {
     color: #111111;
 }
 
@@ -182,45 +186,266 @@ header.masthead h1 {
 
 /* END HOME PAGE CONTENT */
 
+/* START RECENT PRODUCTS */
+
+/*! CSS Used from: http://cocotemplates.com/html/main.css */
+a {
+    text-decoration: none !important;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+section {
+    padding: 80px 0px 0px 0px;
+}
+
+.section-heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-heading .icon i {
+    color: #1e1e1e;
+    background-color: #f4c23d;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.section-heading .icon i:after {
+    width: 44px;
+    height: 3px;
+    background-color: #2959ad;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -15px;
+    content: '';
+}
+
+.section-heading .text-content h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-heading .text-content span {
+    font-size: 14px;
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.recent-cars .car-item {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.recent-cars .car-item:hover {
+    border-bottom: 3px solid #2959ad;
+}
+
+.recent-cars .car-item .thumb-content {
+    position: relative;
+}
+
+.recent-cars .car-item .thumb-content .car-banner {
+    position: absolute;
+    margin-top: 0px;
+    left: 20px;
+    bottom: -18px;
+    margin-right: 26px;
+}
+
+.recent-cars .car-item .thumb-content .car-banner a {
+    background-color: #f4c23d;
+    border-radius: 3px;
+    color: #1e1e1e;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 85px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    display: inline-block;
+}
+
+.recent-cars .car-item .thumb-content .thumb-inner img {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: center center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.recent-cars .car-item .down-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.recent-cars .car-item .down-content h4 {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+.recent-cars .car-item .down-content span {
+    font-size: 15px;
+    font-weight: 900;
+    color: #2959ad;
+    margin-bottom: 0px;
+}
+
+.recent-cars .car-item .down-content p {
+    margin: 10px 0px 20px 0px;
+}
+
+.recent-cars .car-item .down-content ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+.recent-cars .car-item .down-content ul li {
+    display: inline-block;
+    width: 23.5%;
+    text-align: center;
+    border-right: 3px solid #fff;
+}
+
+@media (max-width:991px) {
+    .recent-cars .car-item .down-content ul li {
+        width: 23%;
+    }
+}
+
+.recent-cars .car-item .down-content ul li:last-child {
+    border-right: none;
+}
+
+.recent-cars .car-item .down-content ul li .item {
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    padding: 10px 5px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.recent-cars .car-item .down-content ul li .item:hover {
+    background-color: #f4c23d;
+}
+
+.recent-cars .car-item .down-content ul li .item:hover i {
+    color: #1e1e1e;
+}
+
+.recent-cars .car-item .down-content ul li .item:hover p {
+    color: #1e1e1e;
+}
+
+.recent-cars .car-item .down-content ul li .item i {
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.recent-cars .car-item .down-content ul li .item p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.load-more-btn{
+    margin: auto;
+    width: 15%;
+}
+
+/* END RECENT PRODUCTS */
+
 /* testimonials */
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 .testimonials .testimonial-item {
-  max-width: 18rem;
+    max-width: 18rem;
 }
 
 .testimonials .testimonial-item img {
-  max-width: 12rem;
-  -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
+    max-width: 12rem;
+    -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
 /* END testimonials */
 
 .call-to-action {
-  position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 .call-to-action .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
 }
 
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
