@@ -183,11 +183,6 @@ header.masthead h1 {
 /* START BRANDS */
 
 /*! CSS Used from: html/css.css */
-a {
-    color: #efbb20;
-    outline: 0 none;
-    text-decoration: none;
-}
 
 a:focus,
 a:hover {
@@ -286,11 +281,6 @@ a {
     line-height: 100px;
     margin: 0 -1px -1px 0;
     width: 33.33%;
-}
-
-/*! CSS Used from skin-1.css */
-a {
-    color: #D81517;
 }
 
 /* END BRANDS */
