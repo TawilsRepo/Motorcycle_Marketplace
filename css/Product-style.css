@@ -1,0 +1,904 @@
+a {
+    color: #007bff !important;
+}
+/*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/owl.carousel.min.css */
+.owl-carousel,
+.owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    -moz-backface-visibility: hidden;
+}
+
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/easyzoom.css */
+.easyzoom {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.easyzoom img {
+    vertical-align: bottom;
+}
+
+.easyzoom.is-ready img {
+    cursor: crosshair;
+}
+
+/*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/themify-icons.css */
+[class^="ti-"] {
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-angle-right:before {
+    content: "\e649";
+}
+
+.ti-angle-left:before {
+    content: "\e64a";
+}
+
+/*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/icofont.css */
+.icofont {
+    font-family: 'IcoFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icofont-heart-alt:before {
+    content: "\ecfd";
+}
+
+.icofont-social-facebook:before {
+    content: "\ee08";
+}
+
+.icofont-social-instagram:before {
+    content: "\ee14";
+}
+
+.icofont-social-pinterest:before {
+    content: "\ee23";
+}
+
+.icofont-social-twitter:before {
+    content: "\ee34";
+}
+
+/*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/bundle.css */
+a {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+a,
+input {
+    outline: medium none;
+    color: #686868;
+}
+
+h2,
+h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #001232;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 37px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #454545;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::-moz-selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+input {
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+input {
+    background: #eceff8;
+    border: 2px solid #eceff8;
+    height: 45px;
+    box-shadow: none;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #626262;
+    width: 100%;
+}
+
+input:focus {
+    background: transparent;
+    border: 2px solid #4FC1F0;
+}
+
+::-moz-placeholder {
+    color: #444;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+:focus {
+    outline: -mos-focus-ring-color auto 0px;
+}
+
+.btn-style {
+    background-color: #ffb52f;
+    border-radius: 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding: 14px 33px 12px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out 0s;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.btn-style:hover {
+    border: 0 solid #f3a395;
+    color: #ffffff;
+    background-color: #001232;
+}
+
+/*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/style.css */
+.product-price > span {
+    color: #353535;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.quick-view-rating i {
+    color: #ffb52f;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.qtybutton {
+    color: #727272;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    width: 20px;
+}
+
+input.cart-plus-minus-box {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    float: left;
+    font-size: 16px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 25px;
+}
+
+.cart-plus-minus *::-moz-selection {
+    background: transparent none repeat scroll 0 0;
+    color: #333;
+    text-shadow: none;
+}
+
+.cart-plus-minus {
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    padding: 12px 0 7px 5px;
+    width: 80px;
+    height: 46px;
+}
+
+.quickview-plus-minus {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5px;
+}
+
+.quickview-btn-cart > a {
+    padding: 15px 35px 13px;
+}
+
+.quickview-btn-wishlist > a {
+    border: 1px solid #dcdcdc;
+    color: #727272;
+    display: inline-block;
+    font-size: 22px;
+    padding: 7px 18px 5px;
+    position: relative;
+    z-index: 9;
+}
+
+.quickview-btn-wishlist > a:hover {
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #001232;
+}
+
+.quickview-btn-wishlist a {
+    overflow: hidden;
+}
+
+.quickview-btn-cart {
+    margin: 0 30px;
+}
+
+.qtybutton.inc {
+    margin-top: 4px;
+}
+
+.qtybutton.dec {
+    margin-top: 4px;
+}
+
+.fluid-padding-3 .container-fluid {
+    padding-left: 310px;
+    padding-right: 310px;
+}
+
+.product-color > ul li {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 34px;
+    margin-right: 9px;
+    text-indent: -9999px;
+    transition: all 0.4s ease 0s;
+    width: 37px;
+}
+
+.product-color > ul li:last-child {
+    margin-right: 0px;
+}
+
+.product-color > ul li.blue {
+    background: #668fbe none repeat scroll 0 0;
+}
+
+.product-color > ul li.pink {
+    background: #e967a7 none repeat scroll 0 0;
+}
+
+.product-color {
+    display: block;
+    overflow: hidden;
+}
+
+.product-details-large .easyzoom > a img {
+    width: 100%;
+}
+
+.product-dec-slider.owl-carousel .owl-nav div {
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #8d8c8c;
+    display: inline-block;
+    font-size: 13px;
+    height: 35px;
+    left: -15px;
+    line-height: 37px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease 0s;
+    width: 35px;
+}
+
+.product-dec-slider.owl-carousel .owl-nav div:hover {
+    background-color: #ffb52f;
+    color: #fff;
+}
+
+.product-dec-slider.owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -15px;
+}
+
+.product-dec-slider:hover .owl-nav div {
+    opacity: 1;
+}
+
+.product-dec-slider .owl-dots {
+    display: none;
+}
+
+.product-details-content h2 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.pd-sub-title {
+    color: #333;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.pd-sub-title::before {
+    background-color: #9d9d9d;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}
+
+.product-details-content .quick-view-rating {
+    margin: 14px 0;
+}
+
+.product-details-content .product-color {
+    margin: 31px 0 35px;
+}
+
+.product-overview > p {
+    margin: 0;
+}
+
+.product-overview {
+    margin: 30px 0;
+}
+
+.product-share ul li {
+    display: inline-block;
+}
+
+.product-share ul li a {
+    background-color: transparent;
+    border: 1px solid #b6b6b6;
+    border-radius: 50%;
+    color: #777;
+    display: block;
+    float: left;
+    font-size: 13px;
+    height: 31px;
+    line-height: 30px;
+    margin-right: 11px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 31px;
+}
+
+.product-share ul li a:hover {
+    background-color: #ffb52f;
+    border: 1px solid #ffb52f;
+    color: #fff;
+}
+
+.product-color {
+    overflow: hidden;
+}
+
+.product-color > ul li {
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 21px;
+    margin-right: 15px;
+    text-indent: -9999px;
+    transition: all 0.4s ease 0s;
+    width: 21px;
+}
+
+.product-color > ul li.red {
+    background: #ff4136 none repeat scroll 0 0;
+}
+
+.product-color > ul li.pink {
+    background: #ff01f0 none repeat scroll 0 0;
+}
+
+.product-color > ul li.blue {
+    background: #3649ff none repeat scroll 0 0;
+}
+
+.product-color > ul li.sky2 {
+    background: #00c0ff none repeat scroll 0 0;
+}
+
+.product-color > ul li.green {
+    background: #00ffae none repeat scroll 0 0;
+}
+
+.product-color > ul li.purple2 {
+    background: #8a00ff none repeat scroll 0 0;
+}
+
+.product-color {
+    overflow: hidden;
+}
+
+.product-categories li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product-categories li a {
+    color: #333;
+    text-transform: capitalize;
+}
+
+.product-categories li a:hover {
+    color: #ffb52f;
+}
+
+.product-categories {
+    margin: 30px 0 34px;
+}
+
+.product-share {
+    margin-top: 35px;
+}
+
+.product-overview > p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/responsive.css */
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .fluid-padding-3 .container-fluid {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .product-price > span {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .product-details-tab.mr-40 {
+        margin-right: 20px;
+    }
+
+    .fluid-padding-3 .container-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .product-details-tab.mr-40 {
+        margin-right: 0px;
+    }
+
+    .product-details-img-content .easyzoom {
+        display: block;
+    }
+
+    .product-details-content {
+        margin-top: 50px;
+    }
+
+    .quickview-btn-cart {
+        margin: 0 12px;
+    }
+
+    .quickview-btn-cart > a {
+        padding: 14px 10px;
+    }
+
+    .fluid-padding-3 .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn-style {
+        padding: 13px 25px;
+    }
+
+    .product-details-tab.mr-40 {
+        margin-right: 0px;
+    }
+
+    .product-details-img-content .easyzoom {
+        display: block;
+    }
+
+    .product-details-content {
+        margin-top: 30px;
+    }
+
+    .quickview-btn-cart {
+        margin: 0 10px;
+    }
+
+    .quickview-btn-cart > a {
+        padding: 14px 10px;
+    }
+
+    .product-categories li {
+        margin-bottom: 8px;
+    }
+
+    .product-price > span {
+        font-size: 22px;
+    }
+
+    .fluid-padding-3 .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: 'themify';
+    src: url('http://preview.hasthemes.com/oswan/assets/fonts/themify.eot?-fvbane');
+    src: url('http://preview.hasthemes.com/oswan/assets/css/.../fonts/themify.eot#iefix-fvbane') format('embedded-opentype'), url('http://preview.hasthemes.com/oswan/assets/fonts/themify.woff?-fvbane') format('woff'), url('http://preview.hasthemes.com/oswan/assets/fonts/themify.ttf?-fvbane') format('truetype'), url('http://preview.hasthemes.com/oswan/assets/fonts/themify.svg?-fvbane#themify') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('http://preview.hasthemes.com/oswan/assets/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('http://preview.hasthemes.com/oswan/assets/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'), url('http://preview.hasthemes.com/oswan/assets/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('http://preview.hasthemes.com/oswan/assets/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('http://preview.hasthemes.com/oswan/assets/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('http://preview.hasthemes.com/oswan/assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v23/TK3iWkUHHAIjg752FD8Ghe4.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v23/TK3iWkUHHAIjg752HT8Ghe4.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v23/TK3iWkUHHAIjg752Fj8Ghe4.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v23/TK3iWkUHHAIjg752Fz8Ghe4.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v23/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
