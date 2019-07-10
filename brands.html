@@ -1,0 +1,426 @@
+       <!DOCTYPE html>
+       <html lang="en">
+
+       <head>
+
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+           <meta name="description" content="">
+           <meta name="author" content="">
+
+           <title>Market place website</title>
+
+           <!-- Bootstrap core CSS -->
+           <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+           <!-- Custom fonts for this template -->
+           <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+           <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+           <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+           <!-- Custom styles for this template -->
+           <link href="css/landing-page.css" rel="stylesheet">
+
+       </head>
+
+       <body>
+           <!-- Navigation -->
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="container">
+                   <a class="navbar-brand" href="#">LOGO HERE</a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse" id="navbarNav">
+                       <ul class="navbar-nav ml-auto">
+                           <li class="nav-item active">
+                               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="#">Services</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="#">About</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                           </li>
+                       </ul>
+                       <button class="btn btn-primary" id="nav-top-sign-in" data-toggle="modal" data-target="#loginModal">Sign In</button>
+                       <button class="btn btn-primary" id="nav-top-sign-up" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+                   </div>
+               </div>
+           </nav>
+
+           <!-- LOGIN MODAL -->
+           <div class="modal" id="loginModal">
+               <div class="modal-dialog">
+                   <div class="modal-content">
+                       <div class="modal-header">
+                           <h5 class="modal-title">Sign In</h5>
+                           <button class="close" data-dismiss="modal">&times;</button>
+                       </div>
+                       <div class="modal-body">
+                           <form>
+                               <div class="form-group">
+                                   <label for="username">Username</label>
+                                   <input type="text" placeholder="Username" class="form-control">
+                               </div>
+                               <div class="form-group">
+                                   <label for="password">Password</label>
+                                   <input type="password" placeholder="Password" class="form-control">
+                               </div>
+                           </form>
+                       </div>
+                       <div class="modal-footer">
+                           <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           <button class="btn btn-primary" data-dismiss="modal">Sign In</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-- END LOGIN MODAL -->
+
+           <!--  START SIGN UP MODEL  -->
+
+           <div class="modal" id="signUpModal">
+               <div class="modal-dialog">
+                   <div class="modal-content">
+                       <div class="modal-header">
+                           <h5 class="modal-title">Sign Up</h5>
+                           <button class="close" data-dismiss="modal">&times;</button>
+                       </div>
+                       <div class="modal-body">
+                           <form>
+                               <div class="form-group">
+                                   <label for="username">Username</label>
+                                   <input type="text" placeholder="Username" class="form-control">
+                               </div>
+                               <div class="form-group">
+                                   <label for="password">Password</label>
+                                   <input type="password" placeholder="Password" class="form-control">
+                               </div>
+                               <div class="form-group">
+                                   <label for="email">E-mail</label>
+                                   <input type="email" placeholder="E-mail" class="form-control">
+                               </div>
+                           </form>
+                       </div>
+                       <div class="modal-footer">
+                           <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           <button class="btn btn-primary" data-dismiss="modal">Sign Up</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <!--  END SIGN UP MODEL  -->
+
+           <!-- END Navigation -->
+
+           <!-- Start RECENT PRODUCTS -->
+
+           <section>
+               <div class="recent-cars">
+                   <div class="container">
+                       <div class="recent-car-content">
+                           <div class="row">
+                               <div class="col-md-12">
+                                   <div class="section-heading">
+                                       <div class="icon">
+                                           <i class="fa fa-car"></i>
+                                       </div>
+                                       <div class="text-content">
+                                           <h2>Recent Products</h2>
+                                           <span>Check our recent posts</span>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="row">
+                               <div class="col-md-4 col-sm-6">
+                                   <div class="car-item wow fadeIn animated" data-wow-duration="0.75s" style="visibility: visible;-webkit-animation-duration: 0.75s; -moz-animation-duration: 0.75s; animation-duration: 0.75s;">
+                                       <div class="thumb-content">
+                                           <div class="car-banner">
+                                               <a href="">For Rent</a>
+                                           </div>
+                                           <div class="thumb-inner">
+                                               <a href=""><img src="" alt="Product image here"></a>
+                                           </div>
+                                       </div>
+                                       <div class="down-content">
+                                           <a href="">
+                                               <h4>Product name here</h4>
+                                           </a>
+                                           <span>$1.200</span>
+                                           <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                           <ul class="car-info">
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-calendar"></i>
+                                                       <p>2018</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-speed"></i>
+                                                       <p>160p/h</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-road"></i>
+                                                       <p>26.00km</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-fuel"></i>
+                                                       <p>Petrol</p>
+                                                   </div>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-md-4 col-sm-6">
+                                   <div class="car-item wow fadeIn animated" data-wow-duration="0.75s" style="visibility: visible;-webkit-animation-duration: 0.75s; -moz-animation-duration: 0.75s; animation-duration: 0.75s;">
+                                       <div class="thumb-content">
+                                           <div class="car-banner">
+                                               <a href="">For Sale</a>
+                                           </div>
+                                           <div class="thumb-inner">
+                                               <a href=""><img src="" alt="Product image here"></a>
+                                           </div>
+                                       </div>
+                                       <div class="down-content">
+                                           <a href="">
+                                               <h4>Product name here</h4>
+                                           </a>
+                                           <span>$49.950</span>
+                                           <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                           <ul class="car-info">
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-calendar"></i>
+                                                       <p>2018</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-speed"></i>
+                                                       <p>160p/h</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-road"></i>
+                                                       <p>26.00km</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-fuel"></i>
+                                                       <p>Petrol</p>
+                                                   </div>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-md-4 col-sm-6">
+                                   <div class="car-item wow fadeIn animated" data-wow-duration="0.75s" style="visibility: visible;-webkit-animation-duration: 0.75s; -moz-animation-duration: 0.75s; animation-duration: 0.75s;">
+                                       <div class="thumb-content">
+                                           <div class="car-banner">
+                                               <a href="">For Rent</a>
+                                           </div>
+                                           <div class="thumb-inner">
+                                               <a href=""><img src="" alt="Product image here"></a>
+                                           </div>
+                                       </div>
+                                       <div class="down-content">
+                                           <a href="">
+                                               <h4>Product name here</h4>
+                                           </a>
+                                           <span>$1.500</span>
+                                           <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                           <ul class="car-info">
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-calendar"></i>
+                                                       <p>2018</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-speed"></i>
+                                                       <p>160p/h</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-road"></i>
+                                                       <p>26.00km</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-fuel"></i>
+                                                       <p>Petrol</p>
+                                                   </div>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-md-4 col-sm-6">
+                                   <div class="car-item wow fadeIn animated" data-wow-duration="0.75s" style="visibility: visible;-webkit-animation-duration: 0.75s; -moz-animation-duration: 0.75s; animation-duration: 0.75s;">
+                                       <div class="thumb-content">
+                                           <div class="car-banner">
+                                               <a href="">For Rent</a>
+                                           </div>
+                                           <div class="thumb-inner">
+                                               <a href=""><img src="" alt="Product image here"></a>
+                                           </div>
+                                       </div>
+                                       <div class="down-content">
+                                           <a href="">
+                                               <h4>Product name here</h4>
+                                           </a>
+                                           <span>$1.550</span>
+                                           <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                           <ul class="car-info">
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-calendar"></i>
+                                                       <p>2018</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-speed"></i>
+                                                       <p>160p/h</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-road"></i>
+                                                       <p>26.00km</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-fuel"></i>
+                                                       <p>Petrol</p>
+                                                   </div>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-md-4 col-sm-6">
+                                   <div class="car-item wow fadeIn animated" data-wow-duration="0.75s" style="visibility: visible;-webkit-animation-duration: 0.75s; -moz-animation-duration: 0.75s; animation-duration: 0.75s;">
+                                       <div class="thumb-content">
+                                           <div class="car-banner">
+                                               <a href="">For Sale</a>
+                                           </div>
+                                           <div class="thumb-inner">
+                                               <a href=""><img src="" alt="Product image here"></a>
+                                           </div>
+                                       </div>
+                                       <div class="down-content">
+                                           <a href="">
+                                               <h4>Product name here</h4>
+                                           </a>
+                                           <span>$30.000</span>
+                                           <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                           <ul class="car-info">
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-calendar"></i>
+                                                       <p>2018</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-speed"></i>
+                                                       <p>160p/h</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-road"></i>
+                                                       <p>26.00km</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-fuel"></i>
+                                                       <p>Petrol</p>
+                                                   </div>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-md-4 col-sm-6">
+                                   <div class="car-item wow fadeIn animated" data-wow-duration="0.75s" style="visibility: visible;-webkit-animation-duration: 0.75s; -moz-animation-duration: 0.75s; animation-duration: 0.75s;">
+                                       <div class="thumb-content">
+                                           <div class="car-banner">
+                                               <a href="">For Rent</a>
+                                           </div>
+                                           <div class="thumb-inner">
+                                               <a href=""><img src="" alt="Product image here"></a>
+                                           </div>
+                                       </div>
+                                       <div class="down-content">
+                                           <a href="">
+                                               <h4>Product name here</h4>
+                                           </a>
+                                           <span>$1.500</span>
+                                           <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                           <ul class="car-info">
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-calendar"></i>
+                                                       <p>2018</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-speed"></i>
+                                                       <p>160p/h</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-road"></i>
+                                                       <p>26.00km</p>
+                                                   </div>
+                                               </li>
+                                               <li>
+                                                   <div class="item"><i class="flaticon flaticon-fuel"></i>
+                                                       <p>Petrol</p>
+                                                   </div>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <button type="button" class="load-more-btn btn btn-primary btn-lg btn-block">Load More</button>
+               </div>
+           </section>
+
+           <!--  END RECNET PRODUCTS  -->
+
+           <!-- Footer -->
+           <footer class="footer bg-light">
+               <div class="container">
+                   <div class="row">
+                       <div class="info d-flex col-lg-6 h-100 text-center text-lg-left my-auto">
+                           <div><a href="#">About</a></div>
+                           <div><a href="#">Contact</a><i class="fas fa-phone-square">010101010</i></div>
+                           <div><a href="#">Terms of Use</a></div>
+                           <div><a href="#">Privacy Policy</a></div>
+                       </div>
+                       <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                           <ul class="list-inline mb-0">
+                               <li class="list-inline-item mr-3">
+                                   <a href="#">
+                                       <i class="fab fa-facebook fa-2x fa-fw"></i>
+                                   </a>
+                               </li>
+                               <li class="list-inline-item mr-3">
+                                   <a href="#">
+                                       <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                                   </a>
+                               </li>
+                               <li class="list-inline-item">
+                                   <a href="#">
+                                       <i class="fab fa-instagram fa-2x fa-fw"></i>
+                                   </a>
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </footer>

@@ -12,7 +12,6 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
@@ -46,10 +45,8 @@
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0 ">
-                    <button class="btn btn-primary" id="nav-top-sign-in" data-toggle="modal" data-target="#loginModal">Sign In</button>
-                    <button class="btn btn-primary" id="nav-top-sign-up" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
-                </form>
+                <button class="btn btn-primary" id="nav-top-sign-in" data-toggle="modal" data-target="#loginModal">Sign In</button>
+                <button class="btn btn-primary" id="nav-top-sign-up" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
             </div>
         </div>
     </nav>
@@ -81,7 +78,42 @@
             </div>
         </div>
     </div>
-    <!-- END LOGIN MODAL 
+    <!-- END LOGIN MODAL -->
+
+    <!--  START SIGN UP MODEL  -->
+
+    <div class="modal" id="signUpModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" placeholder="Username" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="Password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" placeholder="E-mail" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" data-dismiss="modal">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  END SIGN UP MODEL  -->
 
     <!-- END Navigation -->
 
@@ -338,186 +370,11 @@
         </div>
 
     </section>
-    <!-- START PRODUCTS 
-    <section>
-        <div class="container">
-            <hr />
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 mb-3">
-                    <div class="card h-100">
-                        <div class="d-flex justify-content-between position-absolute w-100">
-                            <div class="label-new">
-                                <span class="text-white bg-success small d-flex align-items-center px-2 py-1">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <span class="ml-1">New</span>
-                                </span>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <img src="https://picsum.photos/700/550" class="card-img-top" alt="Product">
-                        </a>
-                        <div class="card-body px-2 pb-2 pt-1">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <p class="h4 text-primary">$129,99</p>
-                                </div>
-                                <div>
-                                    <a href="#" class="text-secondary lead" data-toggle="tooltip" data-placement="left" title="Compare">
-                                        <i class="fa fa-line-chart" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="mb-0">
-                                <strong>
-                                    <a href="#" class="text-secondary">Product Title</a>
-                                </strong>
-                            </p>
-                            <p class="mb-1">
-                                <small>
-                                    <a href="#" class="text-secondary">Brands</a>
-                                </small>
-                            </p>
-                            <div class="d-flex mb-3 justify-content-between">
-                                <div>
-                                    <p class="mb-0 small"><b>UPC: </b> 2310010</p>
-                                    <p class="mb-0 small"><b>PART#: </b> 2121</p>
-                                    <p class="mb-0 small"><b>MPN#: </b> mpn22651</p>
-                                </div>
-                                <div class="text-right">
-                                    <p class="mb-0 small"><b>Free Shipping</b></p>
-                                    <p class="mb-0 small"><b>MSRP: </b> $119.99</p>
-                                    <p class="mb-0 small"><b>REG: </b> $19.99</p>
-                                    <p class="mb-0 small text-primary">
-                                        <span class="font-weight-bold">Save</span> $20.00 (16%)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <div class="card h-100">
-                        <div class="d-flex justify-content-between position-absolute w-100">
-                            <div class="label-new">
-                                <span class="text-white bg-success small d-flex align-items-center px-2 py-1">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <span class="ml-1">New</span>
-                                </span>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <img src="https://picsum.photos/700/550" class="card-img-top" alt="Product">
-                        </a>
-                        <div class="card-body px-2 pb-2 pt-1">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <p class="h4 text-primary">$129,99</p>
-                                </div>
-                                <div>
-                                    <a href="#" class="text-secondary lead" data-toggle="tooltip" data-placement="left" title="Compare">
-                                        <i class="fa fa-line-chart" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="mb-0">
-                                <strong>
-                                    <a href="#" class="text-secondary">Product Title</a>
-                                </strong>
-                            </p>
-                            <p class="mb-1">
-                                <small>
-                                    <a href="#" class="text-secondary">Brands</a>
-                                </small>
-                            </p>
-                            <div class="d-flex mb-3 justify-content-between">
-                                <div>
-                                    <p class="mb-0 small"><b>UPC: </b> 2310010</p>
-                                    <p class="mb-0 small"><b>PART#: </b> 2121</p>
-                                    <p class="mb-0 small"><b>MPN#: </b> mpn22651</p>
-                                </div>
-                                <div class="text-right">
-                                    <p class="mb-0 small"><b>Free Shipping</b></p>
-                                    <p class="mb-0 small"><b>MSRP: </b> $119.99</p>
-                                    <p class="mb-0 small"><b>REG: </b> $19.99</p>
-                                    <p class="mb-0 small text-primary">
-                                        <span class="font-weight-bold">Save</span> $20.00 (16%)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <div class="card h-100">
-                        <div class="d-flex justify-content-between position-absolute w-100">
-                            <div class="label-new">
-                                <span class="text-white bg-success small d-flex align-items-center px-2 py-1">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <span class="ml-1">New</span>
-                                </span>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <img src="https://picsum.photos/700/550" class="card-img-top" alt="Product">
-                        </a>
-                        <div class="card-body px-2 pb-2 pt-1">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <p class="h4 text-primary">$129,99</p>
-                                </div>
-                                <div>
-                                    <a href="#" class="text-secondary lead" data-toggle="tooltip" data-placement="left" title="Compare">
-                                        <i class="fa fa-line-chart" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="mb-0">
-                                <strong>
-                                    <a href="#" class="text-secondary">Product Title</a>
-                                </strong>
-                            </p>
-                            <p class="mb-1">
-                                <small>
-                                    <a href="#" class="text-secondary">Brands</a>
-                                </small>
-                            </p>
-                            <div class="d-flex mb-3 justify-content-between">
-                                <div>
-                                    <p class="mb-0 small"><b>UPC: </b> 2310010</p>
-                                    <p class="mb-0 small"><b>PART#: </b> 2121</p>
-                                    <p class="mb-0 small"><b>MPN#: </b> mpn22651</p>
-                                </div>
-                                <div class="text-right">
-                                    <p class="mb-0 small"><b>Free Shipping</b></p>
-                                    <p class="mb-0 small"><b>MSRP: </b> $119.99</p>
-                                    <p class="mb-0 small"><b>REG: </b> $19.99</p>
-                                    <p class="mb-0 small text-primary">
-                                        <span class="font-weight-bold">Save</span> $20.00 (16%)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="container">
-            <hr />
-        </div>
-</section>
-        <!-- END PRODUCTS -->
-
-
+    
     <!-- Start RECENT PRODUCTS -->
+    <div class="container">
+        <hr />
+    </div>
 
     <section>
         <div class="recent-cars">
@@ -790,6 +647,10 @@
         </div>
     </section>
 
+    <div class="container">
+        <hr />
+    </div>
+
     <!--  END RECNET PRODUCTS  -->
 
 
@@ -823,53 +684,15 @@
         </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 mx-auto">
-                    <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-                </div>
-                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form>
-                        <div class="form-row">
-                            <div class="col-12 col-md-9 mb-2 mb-md-0">
-                                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                    <ul class="list-inline mb-2">
-                        <li class="list-inline-item">
-                            <a href="#">About</a>
-                        </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a href="#">Contact</a>
-                        </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a href="#">Terms of Use</a>
-                        </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                    </ul>
-                    <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+                <div class="info d-flex col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <div><a href="#">About</a></div>
+                    <div><a href="#">Contact</a><i class="fas fa-phone-square">010101010</i></div>
+                    <div><a href="#">Terms of Use</a></div>
+                    <div><a href="#">Privacy Policy</a></div>
                 </div>
                 <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                     <ul class="list-inline mb-0">
@@ -896,7 +719,7 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/js/js.js"></script>
 </body>
 

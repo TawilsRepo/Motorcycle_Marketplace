@@ -546,7 +546,22 @@ section {
     opacity: 0.3;
 }
 
+#contact-us{
+    color: #007bff;
+    padding: 30px;
+    font-size: 50px;
+}
+
 footer.footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.info{
+    justify-content: space-between;
+}
+
+.info i{
+    color: #007bff;
+    margin-left: 5px;
 }
