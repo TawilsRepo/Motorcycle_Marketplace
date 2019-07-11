@@ -170,9 +170,11 @@ header.masthead h1 {
     margin-top: 50px;
 }
 
-.adv-search h3 {
-    padding-left: 50%;
+.adv-search form{
+    width: 100%;
 }
+
+
 
 .fa-search {
     color: #111111;

@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.rtl.min.css">
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
@@ -140,7 +141,7 @@
                         <div class="features-icons-icon d-flex">
                             <i class="fas fa-dice m-auto text-primary"></i>
                         </div>
-                        <h3>إكسسوار خارجي</h3>
+                        <h3>Accessories</h3>
                         <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
                     </div>
                 </div>
@@ -149,7 +150,7 @@
                         <div class="features-icons-icon d-flex">
                             <i class="fas fa-car-battery m-auto text-primary"></i>
                         </div>
-                        <h3>قطع غيار</h3>
+                        <h3>Spare parts</h3>
                         <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
                     </div>
                 </div>
@@ -158,12 +159,12 @@
                         <div class="features-icons-icon d-flex">
                             <i class="fas fa-motorcycle m-auto text-primary"></i>
                         </div>
-                        <h3>مواتير</h3>
+                        <h3>Motors</h3>
                         <p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
                     </div>
                 </div>
                 <div class="col-lg-3 align-self-center">
-                    <h1>: ما ستجده في الموقع</h1>
+                    <h1>: What will you find here</h1>
                 </div>
             </div>
         </div>
@@ -203,6 +204,91 @@
 
                 <div class="adv-search col-12 col-sm-10 col-md-10 col-lg-8">
                     <div class="main_bg white-text">
+                        <h3 class="text-center">Find Your Car</h3>
+                        <div class="row">
+                            <form action="" method="get" id="search_car">
+                                <div class="form-group col-sm-12">
+
+
+
+
+                                    <div class="form-group">
+                                        <div class="select">
+                                            <select class="form-control" name="brand_slug" title="All Brands">
+                                                <option value="">All Brands</option>
+                                                <option value="Alfa_Romeo" data-id="63">Alfa Romeo</option>
+                                                <option value="audi" data-id="48">Audi</option>
+                                                <option value="BMW" data-id="50">BMW</option>
+                                                <option value="Brilliance" data-id="17">Brilliance</option>
+                                                <option value="BYD" data-id="18">BYD</option>
+                                                <option value="changan" data-id="45">Changan</option>
+                                                <option value="Chery" data-id="19">Chery</option>
+                                                <option value="Chevrolet" data-id="14">Chevrolet</option>
+                                                <option value="Citroen" data-id="20">Citroen</option>
+                                                <option value="FAW" data-id="62">FAW</option>
+                                                <option value="fiat" data-id="25">Fiat</option>
+                                                <option value="Ford" data-id="21">Ford</option>
+                                                <option value="geely" data-id="40">Geely</option>
+                                                <option value="Glory" data-id="55">Glory</option>
+                                                <option value="Haima" data-id="35">Haima</option>
+                                                <option value="honda" data-id="42">Honda</option>
+                                                <option value="Hyundai" data-id="7">Hyundai</option>
+                                                <option value="JAC" data-id="22">JAC</option>
+                                                <option value="jaguar" data-id="47">Jaguar</option>
+                                                <option value="Jeep" data-id="23">Jeep</option>
+                                                <option value="Karry" data-id="57">Karry</option>
+                                                <option value="KIA" data-id="2">KIA</option>
+                                                <option value="Lada" data-id="24">Lada</option>
+                                                <option value="Land_Rover" data-id="49">Land Rover</option>
+                                                <option value="Maserati" data-id="65">Maserati</option>
+                                                <option value="mazda" data-id="26">Mazda</option>
+                                                <option value="Mercedes" data-id="52">Mercedes</option>
+                                                <option value="brand_mg" data-id="39">MG</option>
+                                                <option value="mini" data-id="41">Mini</option>
+                                                <option value="Mitsubishi" data-id="27">Mitsubishi</option>
+                                                <option value="Nissan" data-id="12">Nissan</option>
+                                                <option value="Opel" data-id="15">Opel</option>
+                                                <option value="Puegeot" data-id="28">Peugeot</option>
+                                                <option value="porsche" data-id="64">porsche</option>
+                                                <option value="proton" data-id="44">Proton</option>
+                                                <option value="Renault" data-id="6">Renault</option>
+                                                <option value="Seat" data-id="29">Seat</option>
+                                                <option value="SENOVA" data-id="56">SENOVA</option>
+                                                <option value="skoda" data-id="43">Skoda</option>
+                                                <option value="Ssangyong" data-id="30">SsangYong</option>
+                                                <option value="Subaru" data-id="31">Subaru</option>
+                                                <option value="Suzuki" data-id="32">Suzuki</option>
+                                                <option value="Toyota" data-id="33">Toyota</option>
+                                                <option value="Volkswagen" data-id="34">Volkswagen</option>
+                                                <option value="volvo" data-id="46">Volvo</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="select">
+                                            <select class="form-control" name="brand_model_slug" title="All Models">
+                                                <option value="">All Models</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="select">
+                                            <select class="form-control" name="type" title="New - Used" required="">
+                                                <option value="new" selected="">New</option>
+                                                <option value="used">Used</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group text-center">
+                                        <button type="submit" class="btn btn-light"><i class="fa fa-search" aria-hidden="true"></i> Search </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- test 
                         <h3>بحث متقدم</h3>
                         <div>
                             <form action="" method="get" id="search_car" style="direction: rtl;">
@@ -286,46 +372,12 @@
                                 </div>
                             </form>
                         </div>
+                        <!-- end test -->
                     </div>
                 </div>
                 <!-- END ADVANCED SEARCH -->
             </div>
             <!-- END Search div-->
-
-            <!-- START BRANDS 
-            <div class="col text-center moto-brands">
-                <ul>
-                    <li>
-                        <a href="#" class="brands-item">
-                            <img src="" alt="Brand here">Brand here</a>
-                    </li>
-                    <li>
-                        <a href="#" class="brands-item">
-                            <img src="" alt="Brand here">Brand here</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#" class="brands-item">
-                            <img src="" alt="Brand here">Brand here</a>
-                    </li>
-                    <li>
-                        <a href="#" class="brands-item">
-                            <img src="" alt="Brand here">Brand here</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#" class="brands-item">
-                            <img src="" alt="Brand here">Brand here</a>
-                    </li>
-                    <li>
-                        <a href="#" class="brands-item">
-                            <img src="" alt="Brand here">Brand here</a>
-                    </li>
-                </ul>
-            </div>
-<!--            -->
 
             <div class="col text-center">
                 <aside class="side-bar">
@@ -368,9 +420,8 @@
 
             <!-- END BRANDS -->
         </div>
-
     </section>
-    
+
     <!-- Start RECENT PRODUCTS -->
     <div class="container">
         <hr />
@@ -401,7 +452,7 @@
                                         <a href="">For Rent</a>
                                     </div>
                                     <div class="thumb-inner">
-                                        <a href=""><img src="" alt="Product image here"></a>
+                                        <a href=""><img src="" alt="http://via.placeholder.com/350x200/FECA57/FFF.jpg?"></a>
                                     </div>
                                 </div>
                                 <div class="down-content">
@@ -442,7 +493,7 @@
                                         <a href="">For Sale</a>
                                     </div>
                                     <div class="thumb-inner">
-                                        <a href=""><img src="" alt="Product image here"></a>
+                                        <a href=""><img src="" alt="http://via.placeholder.com/350x200/FECA57/FFF.jpg?"></a>
                                     </div>
                                 </div>
                                 <div class="down-content">
@@ -483,7 +534,7 @@
                                         <a href="">For Rent</a>
                                     </div>
                                     <div class="thumb-inner">
-                                        <a href=""><img src="" alt="Product image here"></a>
+                                        <a href=""><img src="" alt="http://via.placeholder.com/350x200/FECA57/FFF.jpg?"></a>
                                     </div>
                                 </div>
                                 <div class="down-content">
@@ -524,7 +575,7 @@
                                         <a href="">For Rent</a>
                                     </div>
                                     <div class="thumb-inner">
-                                        <a href=""><img src="" alt="Product image here"></a>
+                                        <a href=""><img src="" alt="http://via.placeholder.com/350x200/FECA57/FFF.jpg?"></a>
                                     </div>
                                 </div>
                                 <div class="down-content">
@@ -565,7 +616,7 @@
                                         <a href="">For Sale</a>
                                     </div>
                                     <div class="thumb-inner">
-                                        <a href=""><img src="" alt="Product image here"></a>
+                                        <a href=""><img src="" alt="http://via.placeholder.com/350x200/FECA57/FFF.jpg?"></a>
                                     </div>
                                 </div>
                                 <div class="down-content">
@@ -606,7 +657,7 @@
                                         <a href="">For Rent</a>
                                     </div>
                                     <div class="thumb-inner">
-                                        <a href=""><img src="" alt="Product image here"></a>
+                                        <a href=""><img src="" alt="http://via.placeholder.com/350x200/FECA57/FFF.jpg?"></a>
                                     </div>
                                 </div>
                                 <div class="down-content">
@@ -657,26 +708,26 @@
     <!-- Testimonials -->
     <section class="testimonials text-center bg-light">
         <div class="container">
-            <h2 class="mb-5">فريق العمل</h2>
+            <h2 class="mb-5">Team</h2>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <img class="img-fluid rounded-circle mb-3" src="" alt="">
-                        <h5>اسم شخص</h5>
+                        <h5>Name</h5>
                         <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <img class="img-fluid rounded-circle mb-3" src="" alt="">
-                        <h5>اسم شخص</h5>
+                        <h5>Name</h5>
                         <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <img class="img-fluid rounded-circle mb-3" src="" alt="">
-                        <h5>اسم شخص</h5>
+                        <h5>Name</h5>
                         <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
                     </div>
                 </div>
@@ -720,7 +771,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="vendor/js/js.js"></script>
 </body>
 
 </html>
