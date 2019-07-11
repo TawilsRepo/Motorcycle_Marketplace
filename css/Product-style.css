@@ -1,6 +1,11 @@
 a {
     color: #007bff !important;
 }
+
+.product-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 /*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/owl.carousel.min.css */
 .owl-carousel,
 .owl-carousel .owl-item {
@@ -77,6 +82,38 @@ a {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+	color: #FFF;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.owl-prev {
+	left: 7px;
+}
+
+.owl-next {
+	right: 7px;
+}
+
+.product-carousel-row {
+    margin-top: 50px !important;
+}
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
 }
 
 /*! CSS Used from: http://preview.hasthemes.com/oswan/assets/css/easyzoom.css */
