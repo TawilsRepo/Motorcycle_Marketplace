@@ -1,0 +1,57 @@
+html {
+    direction: rtl;
+}
+
+body {
+    text-align: left;
+}
+
+/* START NAVBAR */
+
+.navbar-collapse ul{
+    margin-right: 0 !important;
+    padding-left: 0;
+    padding-right: initial;
+}
+
+#nav-top-sign-in{
+    margin: 0px 0px 0px 5px;
+}
+
+#loginModal .modal-dialog{
+    text-align: right;
+}
+
+.modal-content .modal-footer{
+    justify-content: flex-start;
+}
+
+#signUpModal .modal-dialog{
+    text-align: right;
+}
+/* START MEDIA QUERIES */
+
+/* Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) { ... } */
+
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+@media (min-width: 992px){
+    .navbar-expand-lg{
+        justify-content: flex-end;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... } */
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... } */
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+ */
+
+/* END MEDIA QUERIES */
